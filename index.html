@@ -270,9 +270,6 @@
                 Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
                 amet sed erat sed sed amet magna elitr amet kasd diam duo
               </p>
-              <a class="btn text-primary" href=""
-                >Read More <i class="bi bi-arrow-right"></i
-              ></a>
             </div>
           </div>
         </div>
@@ -290,9 +287,6 @@
                 Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
                 amet sed erat sed sed amet magna elitr amet kasd diam duo
               </p>
-              <a class="btn text-primary" href=""
-                >Read More <i class="bi bi-arrow-right"></i
-              ></a>
             </div>
           </div>
         </div>
@@ -310,9 +304,6 @@
                 Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
                 amet sed erat sed sed amet magna elitr amet kasd diam duo
               </p>
-              <a class="btn text-primary" href=""
-                >Read More <i class="bi bi-arrow-right"></i
-              ></a>
             </div>
           </div>
         </div>
@@ -330,9 +321,6 @@
                 Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
                 amet sed erat sed sed amet magna elitr amet kasd diam duo
               </p>
-              <a class="btn text-primary" href=""
-                >Read More <i class="bi bi-arrow-right"></i
-              ></a>
             </div>
           </div>
         </div>
@@ -350,9 +338,6 @@
                 Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
                 amet sed erat sed sed amet magna elitr amet kasd diam duo
               </p>
-              <a class="btn text-primary" href=""
-                >Read More <i class="bi bi-arrow-right"></i
-              ></a>
             </div>
           </div>
         </div>
@@ -370,9 +355,6 @@
                 Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
                 amet sed erat sed sed amet magna elitr amet kasd diam duo
               </p>
-              <a class="btn text-primary" href=""
-                >Read More <i class="bi bi-arrow-right"></i
-              ></a>
             </div>
           </div>
         </div>
@@ -402,62 +384,68 @@
         </div>
         <div class="col-lg-8">
           <div class="bg-light text-center p-5">
-            <form>
-              <div class="row g-3">
-                <div class="col-12 col-sm-6">
+            <div class="row g-3">
+              <div class="col-12 col-sm-6">
+                <input
+                  type="text"
+                  class="form-control border-0 form-email-name"
+                  placeholder="Your Name"
+                  style="height: 55px"
+                  id="form-email-name"
+                />
+              </div>
+              <div class="col-12 col-sm-6">
+                <input
+                  type="email"
+                  class="form-control border-0"
+                  placeholder="Your Email"
+                  style="height: 55px"
+                  id="form-email-email"
+                />
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="date" id="date" data-target-input="nearest">
                   <input
                     type="text"
-                    class="form-control border-0"
-                    placeholder="Your Name"
+                    class="form-control border-0 datetimepicker-input"
+                    placeholder="Call Back Date"
+                    data-target="#date"
+                    data-toggle="datetimepicker"
                     style="height: 55px"
+                    id="form-email-callBackDatetimepicker"
                   />
-                </div>
-                <div class="col-12 col-sm-6">
-                  <input
-                    type="email"
-                    class="form-control border-0"
-                    placeholder="Your Email"
-                    style="height: 55px"
-                  />
-                </div>
-                <div class="col-12 col-sm-6">
-                  <div class="date" id="date" data-target-input="nearest">
-                    <input
-                      type="text"
-                      class="form-control border-0 datetimepicker-input"
-                      placeholder="Call Back Date"
-                      data-target="#date"
-                      data-toggle="datetimepicker"
-                      style="height: 55px"
-                    />
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6">
-                  <div class="time" id="time" data-target-input="nearest">
-                    <input
-                      type="text"
-                      class="form-control border-0 datetimepicker-input"
-                      placeholder="Call Back Time"
-                      data-target="#time"
-                      data-toggle="datetimepicker"
-                      style="height: 55px"
-                    />
-                  </div>
-                </div>
-                <div class="col-12">
-                  <textarea
-                    class="form-control border-0"
-                    rows="5"
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-                <div class="col-12">
-                  <button class="btn btn-primary w-100 py-3" type="submit">
-                    Submit Request
-                  </button>
                 </div>
               </div>
-            </form>
+              <div class="col-12 col-sm-6">
+                <div class="time" id="time" data-target-input="nearest">
+                  <input
+                    type="text"
+                    class="form-control border-0 datetimepicker-input"
+                    placeholder="Call Back Time"
+                    data-target="#time"
+                    data-toggle="datetimepicker"
+                    style="height: 55px"
+                    id="form-email-callBackTimeDatetimepicker"
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <input
+                  class="form-control border-0"
+                  rows="5"
+                  placeholder="Phone number"
+                  id="form-email-phoneNumber"
+                />
+              </div>
+              <div class="col-12">
+                <button
+                  class="btn btn-primary w-100 py-3"
+                  id="formEmailsubmitButton"
+                >
+                  Submit Request
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -867,9 +855,6 @@
               <h4 class="text-uppercase mb-3">
                 Rebum diam clita lorem erat magna est erat
               </h4>
-              <a class="text-uppercase fw-bold" href=""
-                >Read More <i class="bi bi-arrow-right"></i
-              ></a>
             </div>
           </div>
         </div>
@@ -898,9 +883,6 @@
               <h4 class="text-uppercase mb-3">
                 Rebum diam clita lorem erat magna est erat
               </h4>
-              <a class="text-uppercase fw-bold" href=""
-                >Read More <i class="bi bi-arrow-right"></i
-              ></a>
             </div>
           </div>
         </div>
@@ -929,9 +911,6 @@
               <h4 class="text-uppercase mb-3">
                 Rebum diam clita lorem erat magna est erat
               </h4>
-              <a class="text-uppercase fw-bold" href=""
-                >Read More <i class="bi bi-arrow-right"></i
-              ></a>
             </div>
           </div>
         </div>
@@ -989,13 +968,13 @@
                 <a class="text-white-50 mb-2" href="/"
                   ><i class="fa fa-angle-right me-2"></i>Home</a
                 >
-                <a class="text-white-50 mb-2" href="/about.html"
+                <a class="text-white-50 mb-2" href="about.html"
                   ><i class="fa fa-angle-right me-2"></i>About Us</a
                 >
-                <a class="text-white-50 mb-2" href="/service.html"
+                <a class="text-white-50 mb-2" href="service.html"
                   ><i class="fa fa-angle-right me-2"></i>Our Services</a
                 >
-                <a class="text-white-50" href="/contact.html"
+                <a class="text-white-50" href="contact.html"
                   ><i class="fa fa-angle-right me-2"></i>Contact Us</a
                 >
               </div>
@@ -1024,6 +1003,7 @@
     ></a>
 
     <!-- JavaScript Libraries -->
+    <script src="js/sendEmail.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
