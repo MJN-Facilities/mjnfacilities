@@ -252,3 +252,13 @@
   background: var(--primary);
   transform: skew(40deg);
 }
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 75px;
+  height: 75px;
+}

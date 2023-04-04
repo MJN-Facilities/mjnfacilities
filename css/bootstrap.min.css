@@ -469,6 +469,12 @@ progress {
     font-size: 2.5rem;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .display-6 {
+    font-size: 14px;
+  }
+}
 .list-unstyled {
   padding-left: 0;
   list-style: none;

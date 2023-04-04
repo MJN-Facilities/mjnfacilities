@@ -550,6 +550,11 @@ progress {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .display-6 {
+    font-size: 1rem;
+  }
+}
 .list-unstyled {
   padding-left: 0;
   list-style: none;
