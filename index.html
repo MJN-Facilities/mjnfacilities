@@ -2,24 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Jayco Maintenance</title>
+    <title>MJN Facility</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Free HTML Templates" name="keywords" />
-    <meta content="Free HTML Templates" name="description" />
 
+    <meta
+      content="description"
+      name="Welcome to MJN Facilitate,
+     a leading maintenance company serving the biggest stores in the state of New York. With a commitment to excellence and a track record of delivering top-notch services,
+      we are the go-to partner for maintaining and enhancing the operational efficiency of commercial establishments"
+    />
+    <meta content="origin" name="referrer" />
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
     <!-- Icon Font Stylesheet -->
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
       rel="stylesheet"
     />
     <link
@@ -29,11 +38,7 @@
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link
-      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
-      rel="stylesheet"
-    />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -43,52 +48,63 @@
   </head>
 
   <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
     <!-- Topbar Start -->
-    <div class="container-fluid px-5 d-none d-lg-block">
-      <div class="row gx-5">
-        <div class="col-lg-4 text-center py-3">
-          <div class="d-inline-flex align-items-center">
-            <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
-            <div class="text-start">
-              <h6 class="text-uppercase fw-bold">Our Office</h6>
-              <span>123 Street, New York, USA</span>
-            </div>
+    <div class="container-fluid blueColor px-5 d-none d-lg-block">
+      <div class="row gx-0">
+        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+          <div class="d-inline-flex align-items-center" style="height: 45px">
+            <small class="me-3 text-light"
+              ><i class="fa fa-map-marker-alt me-2"></i> One World Trade Centre,
+              Lower Manhattan, New York City - Office
+            </small>
+            <small class="me-3 text-light"
+              ><i class="fa fa-phone-alt me-2"></i>+1 (347) 662-3103</small
+            >
+            <small class="text-light"
+              ><i class="fa fa-envelope-open me-2"></i
+              >info@mjnfacilitate.com</small
+            >
           </div>
         </div>
-        <div class="col-lg-4 text-center border-start border-end py-3">
-          <div class="d-inline-flex align-items-center">
-            <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
-            <div class="text-start">
-              <h6 class="text-uppercase fw-bold">Email Us</h6>
-              <span>info@example.com</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 text-center py-3">
-          <div class="d-inline-flex align-items-center">
-            <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
-            <div class="text-start">
-              <h6 class="text-uppercase fw-bold">Call Us</h6>
-              <span>+012 345 6789</span>
-            </div>
+        <div class="col-lg-4 text-center text-lg-end">
+          <div class="d-inline-flex align-items-center" style="height: 45px">
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href="https://web.facebook.com/MJNFacilitate/"
+              ><i class="fab fa-facebook-f fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href="https://www.linkedin.com/company/mjnfacilities"
+              ><i class="fab fa-linkedin-in fw-normal"></i
+            ></a>
+            <a
+              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href="https://www.instagram.com/mjnfacilitate/"
+              ><i class="fab fa-instagram fw-normal"></i
+            ></a>
           </div>
         </div>
       </div>
     </div>
     <!-- Topbar End -->
 
-    <!-- Navbar Start -->
-    <div
-      class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm px-5 pe-lg-0"
-    >
-      <nav
-        class="navbar navbar-expand-lg bg-dark bg-light-radial navbar-dark py-3 py-lg-0"
-      >
-        <a href="index.html" class="navbar-brand">
-          <p class="m-0 display-6 text-uppercase text-white logo-container">
-            <img src="img/logo.png" class="logo-img" alt="logo" />
-            <span class="logo-text">Jayco maintenance</span>
-          </p>
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand p-0">
+          <h1 class="m-0">
+            <img src="img/mjn_logo.png" width="25%" alt="Logo" />
+          </h1>
         </a>
         <button
           class="navbar-toggler"
@@ -96,730 +112,542 @@
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="fa fa-bars"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
             <a href="index.html" class="nav-item nav-link active">Home</a>
             <a href="about.html" class="nav-item nav-link">About</a>
-            <a href="service.html" class="nav-item nav-link">Service</a>
+            <a href="service.html" class="nav-item nav-link">Services</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Pages</a
+              >
+              <div class="dropdown-menu m-0">
+                <!-- <a href="team.html" class="dropdown-item">Team Members</a> -->
+                <a href="quote.html" class="dropdown-item">Request A Quote</a>
+              </div>
+            </div>
             <a href="contact.html" class="nav-item nav-link">Contact</a>
-            <a
-              href="contact.html"
-              class="nav-item nav-link bg-primary text-white px-5 ms-3 d-none d-lg-block"
-              >Contact us <i class="bi bi-arrow-right"></i
-            ></a>
           </div>
         </div>
       </nav>
-    </div>
-    <!-- Navbar End -->
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0">
-      <div
-        id="header-carousel"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
+      <div class="carousel slide carousel-fade">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
             <div
-              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              class="carousel-caption d-flex flex-column justify-content-center"
             >
               <div class="p-3" style="max-width: 900px">
-                <i
-                  class="fa fa-home fa-4x text-primary mb-4 d-none d-sm-block"
-                ></i>
-                <h1 class="display-2 text-uppercase text-white mb-md-4">
-                  Build Your Dream House With Us
+                <h5 class="text-white text-uppercase mb-3 animated slideInDown">
+                  Welcome To Our Website
+                </h5>
+                <h1 class="display-1 text-white mb-md-4 animated zoomIn">
+                  Let Us Handle All Your Maintenance Needs
                 </h1>
                 <a
-                  href="contact.html"
-                  class="btn btn-primary py-md-3 px-md-5 mt-2"
-                  >Contact us</a
+                  href="quote.html"
+                  class="btn redColor text-white py-md-3 px-md-5 me-3 animated slideInLeft"
+                  >Request A Quote</a
                 >
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
-            <div
-              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="p-3" style="max-width: 900px">
-                <i
-                  class="fa fa-tools fa-4x text-primary mb-4 d-none d-sm-block"
-                ></i>
-                <h1 class="display-2 text-uppercase text-white mb-md-4">
-                  We Are Trusted For Your Project
-                </h1>
-                <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2"
+                <a
+                  href="contact.html"
+                  class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight"
                   >Contact Us</a
                 >
               </div>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#header-carousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#header-carousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
-    <!-- Carousel End -->
+    <!-- Navbar & Carousel End -->
 
-    <!-- About Start -->
-    <div class="container-fluid py-6 px-5">
-      <div class="row g-5">
-        <div class="col-lg-7">
-          <h1 class="display-5 text-uppercase mb-4">
-            We are <span class="text-primary">the Leader</span> in Construction
-            Industry
-          </h1>
-          <h4 class="text-uppercase mb-3 text-body">
-            Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum tempor
-            sit diam amet diam et eos labore
-          </h4>
-          <p>
-            Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam
-            dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam
-            diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem
-            et sit, sed stet no labore lorem sit. Sanctus clita duo justo et
-            tempor
-          </p>
-          <div class="row gx-5 py-2">
-            <div class="col-sm-6 mb-2">
-              <p class="fw-bold mb-2">
-                <i class="fa fa-check text-primary me-3"></i>Perfect Planning
-              </p>
-              <p class="fw-bold mb-2">
-                <i class="fa fa-check text-primary me-3"></i>Professional
-                Workers
-              </p>
-              <p class="fw-bold mb-2">
-                <i class="fa fa-check text-primary me-3"></i>First Working
-                Process
-              </p>
-            </div>
-            <div class="col-sm-6 mb-2">
-              <p class="fw-bold mb-2">
-                <i class="fa fa-check text-primary me-3"></i>Perfect Planning
-              </p>
-              <p class="fw-bold mb-2">
-                <i class="fa fa-check text-primary me-3"></i>Professional
-                Workers
-              </p>
-              <p class="fw-bold mb-2">
-                <i class="fa fa-check text-primary me-3"></i>First Working
-                Process
-              </p>
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content redColor">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="btn bg-white btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            class="modal-body d-flex align-items-center justify-content-center"
+          >
+            <div class="input-group" style="max-width: 600px">
+              <input
+                type="text"
+                class="form-control bg-transparent border-primary p-3"
+                placeholder="Type search keyword"
+              />
+              <button class="btn btn-primary px-4">
+                <i class="bi bi-search"></i>
+              </button>
             </div>
           </div>
-          <p class="mb-4">
-            Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam
-            dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam
-            diam amet diam et eos labore
-          </p>
         </div>
-        <div class="col-lg-5 pb-5" style="min-height: 400px">
-          <div class="position-relative bg-dark-radial h-100 ms-5">
-            <img
-              class="position-absolute w-100 h-100 mt-5 ms-n5"
-              src="img/about.jpg"
-              style="object-fit: cover"
-            />
+      </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+    <!-- Facts Start -->
+    <div class="container-fluid facts py-5 pt-lg-0">
+      <div class="container py-5 pt-lg-0">
+        <div class="row gx-0">
+          <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+            <div
+              class="shadow d-flex align-items-center justify-content-center p-4 lightBlue"
+              style="height: 150px"
+            >
+              <div
+                class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                style="width: 60px; height: 60px"
+              >
+                <i class="fa fa-users lightBlueColor"></i>
+              </div>
+              <div class="ps-4">
+                <h5 class="text-white mb-0">Happy Clients</h5>
+                <h1 class="text-white mb-0" data-toggle="counter-up">2,366</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+            <div
+              class="redColor shadow d-flex align-items-center justify-content-center p-4"
+              style="height: 150px"
+            >
+              <div
+                class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                style="width: 60px; height: 60px"
+              >
+                <i class="fa fa-check coloRed"></i>
+              </div>
+              <div class="ps-4">
+                <h5 class="text-white mb-0">Projects Done</h5>
+                <h1 class="mb-0 text-white" data-toggle="counter-up">42,617</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+            <div
+              class="blueColor shadow d-flex align-items-center justify-content-center p-4"
+              style="height: 150px"
+            >
+              <div
+                class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                style="width: 60px; height: 60px"
+              >
+                <i class="fa fa-award blue-text-l"></i>
+              </div>
+              <div class="ps-4">
+                <h5 class="text-white mb-0">Service state</h5>
+                <h1 class="text-white mb-0" data-toggle="counter-up">20</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Facts Start -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-7">
+            <div class="section-title position-relative pb-3 mb-5">
+              <h5 class="fw-bold text-uppercase blue-text-l">About Us</h5>
+              <h1 class="mb-0">
+                Welcome to MJN Facility - Your Premier Maintenance Solution
+                Across the State!
+              </h1>
+            </div>
+            <p class="mb-4">
+              At MJN Facility, we take immense pride in being a leading
+              maintenance facility that caters to all your maintenance needs.
+              With a commitment to excellence and unmatched expertise, we have
+              become the go-to solution for clients across the state. Our
+              top-notch services and dedication to customer satisfaction set us
+              apart as a reliable partner for all your maintenance requirements.
+            </p>
+            <div class="row g-0 mb-3">
+              <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                <h5 class="mb-3">
+                  <i class="fa fa-check me-3 blue-text-l"></i>Service across the
+                  state
+                </h5>
+                <h5 class="mb-3">
+                  <i class="fa fa-check me-3 blue-text-l"></i>Professional Staff
+                </h5>
+              </div>
+              <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                <h5 class="mb-3">
+                  <i class="fa fa-check me-3 blue-text-l"></i>24/7 Support
+                </h5>
+                <h5 class="mb-3">
+                  <i class="fa fa-check me-3 blue-text-l"></i>Fair Prices
+                </h5>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center mb-4 wow fadeIn"
+              data-wow-delay="0.6s"
+            >
+              <div
+                class="redColor d-flex align-items-center justify-content-center rounded"
+                style="width: 60px; height: 60px"
+              >
+                <i class="fa fa-phone-alt text-white"></i>
+              </div>
+              <div class="ps-4">
+                <h5 class="mb-2">Call to ask any question</h5>
+                <h4 class="blue-text-l mb-0">+1 (347) 662-3103</h4>
+              </div>
+            </div>
+            <a
+              href="quote.html"
+              class="btn redColor py-3 px-5 mt-3 wow zoomIn text-white"
+              data-wow-delay="0.9s"
+              >Request A Quote</a
+            >
+          </div>
+          <div class="col-lg-5" style="min-height: 500px">
+            <div class="position-relative h-100">
+              <img
+                class="position-absolute w-100 h-100 rounded wow zoomIn"
+                data-wow-delay="0.9s"
+                src="img/about.jpg"
+                style="object-fit: cover"
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- About End -->
 
-    <!-- Services Start -->
-    <div class="container-fluid bg-light py-6 px-5">
-      <div class="text-center mx-auto mb-5" style="max-width: 600px">
-        <h1 class="display-5 text-uppercase mb-4">
-          We Provide <span class="text-primary">The Best</span> Construction
-          Services
-        </h1>
-      </div>
-      <div class="row g-5">
-        <div class="col-lg-4 col-md-6">
-          <div
-            class="service-item bg-white d-flex flex-column align-items-center text-center"
-          >
-            <img class="img-fluid" src="img/service-1.jpg" alt="" />
-            <div class="service-icon bg-white">
-              <i class="fa fa-3x fa-building text-primary"></i>
-            </div>
-            <div class="px-4 pb-4">
-              <h4 class="text-uppercase mb-3">Building Construction</h4>
-              <p>
-                Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
-                amet sed erat sed sed amet magna elitr amet kasd diam duo
-              </p>
-            </div>
-          </div>
+    <!-- Features Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div
+          class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+          style="max-width: 600px"
+        >
+          <h5 class="fw-bold text-uppercase blue-text-l">Why Choose Us</h5>
+          <h1 class="mb-0">
+            We offer a wide range of maintenance services, tailored to meet the
+            unique needs of our diverse clients
+          </h1>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div
-            class="service-item bg-white rounded d-flex flex-column align-items-center text-center"
-          >
-            <img class="img-fluid" src="img/service-2.jpg" alt="" />
-            <div class="service-icon bg-white">
-              <i class="fa fa-3x fa-home text-primary"></i>
-            </div>
-            <div class="px-4 pb-4">
-              <h4 class="text-uppercase mb-3">House Renovation</h4>
-              <p>
-                Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
-                amet sed erat sed sed amet magna elitr amet kasd diam duo
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div
-            class="service-item bg-white rounded d-flex flex-column align-items-center text-center"
-          >
-            <img class="img-fluid" src="img/service-3.jpg" alt="" />
-            <div class="service-icon bg-white">
-              <i class="fa fa-3x fa-drafting-compass text-primary"></i>
-            </div>
-            <div class="px-4 pb-4">
-              <h4 class="text-uppercase mb-3">Architecture Design</h4>
-              <p>
-                Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
-                amet sed erat sed sed amet magna elitr amet kasd diam duo
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div
-            class="service-item bg-white rounded d-flex flex-column align-items-center text-center"
-          >
-            <img class="img-fluid" src="img/service-4.jpg" alt="" />
-            <div class="service-icon bg-white">
-              <i class="fa fa-3x fa-palette text-primary"></i>
-            </div>
-            <div class="px-4 pb-4">
-              <h4 class="text-uppercase mb-3">Interior Design</h4>
-              <p>
-                Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
-                amet sed erat sed sed amet magna elitr amet kasd diam duo
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div
-            class="service-item bg-white rounded d-flex flex-column align-items-center text-center"
-          >
-            <img class="img-fluid" src="img/service-5.jpg" alt="" />
-            <div class="service-icon bg-white">
-              <i class="fa fa-3x fa-tools text-primary"></i>
-            </div>
-            <div class="px-4 pb-4">
-              <h4 class="text-uppercase mb-3">Fixing & Support</h4>
-              <p>
-                Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
-                amet sed erat sed sed amet magna elitr amet kasd diam duo
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div
-            class="service-item bg-white rounded d-flex flex-column align-items-center text-center"
-          >
-            <img class="img-fluid" src="img/service-6.jpg" alt="" />
-            <div class="service-icon bg-white">
-              <i class="fa fa-3x fa-paint-brush text-primary"></i>
-            </div>
-            <div class="px-4 pb-4">
-              <h4 class="text-uppercase mb-3">Painting</h4>
-              <p>
-                Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut
-                amet sed erat sed sed amet magna elitr amet kasd diam duo
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Services End -->
-
-    <!-- Appointment Start -->
-    <div class="container-fluid py-6 px-5">
-      <div class="row gx-5">
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <div class="mb-4">
-            <h1 class="display-5 text-uppercase mb-4">
-              Request A <span class="text-primary">Call Back</span>
-            </h1>
-          </div>
-          <p class="mb-5">
-            Nonumy ipsum amet tempor takimata vero ea elitr. Diam diam ut et eos
-            duo duo sed. Lorem elitr sadipscing eos et ut et stet justo, sit
-            dolore et voluptua labore. Ipsum erat et ea ipsum magna sadipscing
-            lorem. Sit lorem sea sanctus eos. Sanctus sit tempor dolores ipsum
-            stet justo sit erat ea, sed diam sanctus takimata sit. Et at
-            voluptua amet erat justo amet ea ipsum eos, eirmod accusam sea sed
-            ipsum kasd ut.
-          </p>
-          <a class="btn btn-primary py-3 px-5" href="contact.html"
-            >Contact us</a
-          >
-        </div>
-        <div class="col-lg-8">
-          <div class="bg-light text-center p-5">
-            <div class="row g-3">
-              <div class="col-12 col-sm-6">
-                <input
-                  type="text"
-                  class="form-control border-0 form-email-name"
-                  placeholder="Your Name"
-                  style="height: 55px"
-                  id="form-email-name"
-                />
-              </div>
-              <div class="col-12 col-sm-6">
-                <input
-                  type="email"
-                  class="form-control border-0"
-                  placeholder="Your Email"
-                  style="height: 55px"
-                  id="form-email-email"
-                />
-              </div>
-              <div class="col-12 col-sm-6">
-                <div class="date" id="date" data-target-input="nearest">
-                  <input
-                    type="text"
-                    class="form-control border-0 datetimepicker-input"
-                    placeholder="Call Back Date"
-                    data-target="#date"
-                    data-toggle="datetimepicker"
-                    style="height: 55px"
-                    id="form-email-callBackDatetimepicker"
-                  />
-                </div>
-              </div>
-              <div class="col-12 col-sm-6">
-                <div class="time" id="time" data-target-input="nearest">
-                  <input
-                    type="text"
-                    class="form-control border-0 datetimepicker-input"
-                    placeholder="Call Back Time"
-                    data-target="#time"
-                    data-toggle="datetimepicker"
-                    style="height: 55px"
-                    id="form-email-callBackTimeDatetimepicker"
-                  />
-                </div>
-              </div>
-              <div class="col-12">
-                <input
-                  class="form-control border-0"
-                  rows="5"
-                  placeholder="Phone number"
-                  id="form-email-phoneNumber"
-                />
-              </div>
-              <div class="col-12">
-                <button
-                  class="btn btn-primary w-100 py-3"
-                  id="formEmailsubmitButton"
-                >
-                  Submit Request
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Appointment End -->
-
-    <!-- Portfolio Start -->
-    <div class="container-fluid bg-light py-6 px-5">
-      <div class="text-center mx-auto mb-5" style="max-width: 600px">
-        <h1 class="display-5 text-uppercase mb-4">
-          Some Of Our <span class="text-primary">Popular</span> Dream Projects
-        </h1>
-      </div>
-      <div class="row gx-5">
-        <div class="col-12 text-center">
-          <div class="d-inline-block bg-dark-radial text-center pt-4 px-5 mb-5">
-            <ul class="list-inline mb-0" id="portfolio-flters">
-              <li
-                class="btn btn-outline-primary bg-white p-2 active mx-2 mb-4"
-                data-filter="*"
-              >
-                <img
-                  src="img/portfolio-1.jpg"
-                  style="width: 150px; height: 100px"
-                />
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="row g-5">
+              <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
                 <div
-                  class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center"
-                  style="background: rgba(4, 15, 40, 0.3)"
+                  class="redColor rounded d-flex align-items-center justify-content-center mb-3"
+                  style="width: 60px; height: 60px"
                 >
-                  <h6 class="text-white text-uppercase m-0">All</h6>
+                  <i class="fa fa-cubes text-white"></i>
                 </div>
-              </li>
-              <li
-                class="btn btn-outline-primary bg-white p-2 mx-2 mb-4"
-                data-filter=".first"
-              >
-                <img
-                  src="img/portfolio-2.jpg"
-                  style="width: 150px; height: 100px"
-                />
+                <h4>Statewide Coverage</h4>
+                <p class="mb-0">
+                  Our services are available across the state, making us the
+                  preferred maintenance partner for various businesses and
+                  residents.
+                </p>
+              </div>
+              <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                 <div
-                  class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center"
-                  style="background: rgba(4, 15, 40, 0.3)"
+                  class="redColor rounded d-flex align-items-center justify-content-center mb-3"
+                  style="width: 60px; height: 60px"
                 >
-                  <h6 class="text-white text-uppercase m-0">Construction</h6>
+                  <i class="fa fa-award text-white"></i>
                 </div>
-              </li>
-              <li
-                class="btn btn-outline-primary bg-white p-2 mx-2 mb-4"
-                data-filter=".second"
-              >
-                <img
-                  src="img/portfolio-3.jpg"
-                  style="width: 150px; height: 100px"
-                />
+                <h4>Unparalleled Expertise</h4>
+                <p class="mb-0">
+                  With years of experience under our belt, our team possesses
+                  the knowledge and skills required to tackle even the most
+                  complex maintenance tasks
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow zoomIn"
+            data-wow-delay="0.9s"
+            style="min-height: 350px"
+          >
+            <div class="position-relative h-100">
+              <img
+                class="position-absolute w-100 h-100 rounded wow zoomIn"
+                data-wow-delay="0.1s"
+                src="img/feature.jpg"
+                style="object-fit: cover"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row g-5">
+              <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
                 <div
-                  class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center"
-                  style="background: rgba(4, 15, 40, 0.3)"
+                  class="redColor rounded d-flex align-items-center justify-content-center mb-3"
+                  style="width: 60px; height: 60px"
                 >
-                  <h6 class="text-white text-uppercase m-0">Renovation</h6>
+                  <i class="fa fa-users-cog text-white"></i>
                 </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row g-5 portfolio-container">
-        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-          <div class="position-relative portfolio-box">
-            <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="" />
-            <a class="portfolio-title shadow-sm" href="">
-              <p class="h4 text-uppercase">Project Name</p>
-              <span class="text-body"
-                ><i class="fa fa-map-marker-alt text-primary me-2"></i>123
-                Street, New York, USA</span
-              >
-            </a>
-            <a
-              class="portfolio-btn"
-              href="img/portfolio-1.jpg"
-              data-lightbox="portfolio"
-            >
-              <i class="bi bi-plus text-white"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-          <div class="position-relative portfolio-box">
-            <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="" />
-            <a class="portfolio-title shadow-sm" href="">
-              <p class="h4 text-uppercase">Project Name</p>
-              <span class="text-body"
-                ><i class="fa fa-map-marker-alt text-primary me-2"></i>123
-                Street, New York, USA</span
-              >
-            </a>
-            <a
-              class="portfolio-btn"
-              href="img/portfolio-2.jpg"
-              data-lightbox="portfolio"
-            >
-              <i class="bi bi-plus text-white"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-          <div class="position-relative portfolio-box">
-            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="" />
-            <a class="portfolio-title shadow-sm" href="">
-              <p class="h4 text-uppercase">Project Name</p>
-              <span class="text-body"
-                ><i class="fa fa-map-marker-alt text-primary me-2"></i>123
-                Street, New York, USA</span
-              >
-            </a>
-            <a
-              class="portfolio-btn"
-              href="img/portfolio-3.jpg"
-              data-lightbox="portfolio"
-            >
-              <i class="bi bi-plus text-white"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-          <div class="position-relative portfolio-box">
-            <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="" />
-            <a class="portfolio-title shadow-sm" href="">
-              <p class="h4 text-uppercase">Project Name</p>
-              <span class="text-body"
-                ><i class="fa fa-map-marker-alt text-primary me-2"></i>123
-                Street, New York, USA</span
-              >
-            </a>
-            <a
-              class="portfolio-btn"
-              href="img/portfolio-4.jpg"
-              data-lightbox="portfolio"
-            >
-              <i class="bi bi-plus text-white"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-          <div class="position-relative portfolio-box">
-            <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="" />
-            <a class="portfolio-title shadow-sm" href="">
-              <p class="h4 text-uppercase">Project Name</p>
-              <span class="text-body"
-                ><i class="fa fa-map-marker-alt text-primary me-2"></i>123
-                Street, New York, USA</span
-              >
-            </a>
-            <a
-              class="portfolio-btn"
-              href="img/portfolio-5.jpg"
-              data-lightbox="portfolio"
-            >
-              <i class="bi bi-plus text-white"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-          <div class="position-relative portfolio-box">
-            <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="" />
-            <a class="portfolio-title shadow-sm" href="">
-              <p class="h4 text-uppercase">Project Name</p>
-              <span class="text-body"
-                ><i class="fa fa-map-marker-alt text-primary me-2"></i>123
-                Street, New York, USA</span
-              >
-            </a>
-            <a
-              class="portfolio-btn"
-              href="img/portfolio-6.jpg"
-              data-lightbox="portfolio"
-            >
-              <i class="bi bi-plus text-white"></i>
-            </a>
+                <h4>Clientele</h4>
+                <p class="mb-0">
+                  At MJN Facility, we are proud to serve some of the biggest
+                  clients in the state. Our long-standing relationships with
+                  these esteemed organizations speak volumes about our
+                  commitment to excellence.
+                </p>
+              </div>
+              <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                <div
+                  class="redColor rounded d-flex align-items-center justify-content-center mb-3"
+                  style="width: 60px; height: 60px"
+                >
+                  <i class="fa fa-phone-alt text-white"></i>
+                </div>
+                <h4>Quality Assurance</h4>
+                <p class="mb-0">
+                  We prioritize quality in every aspect of our service delivery.
+                  From using premium materials to employing meticulous
+                  workmanship, we ensure that our clients receive the best
+                  possible results.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Portfolio End -->
+    <!-- Features Start -->
 
-    <!-- Team Start -->
-    <div class="container-fluid py-6 px-5">
-      <div class="text-center mx-auto mb-5" style="max-width: 600px">
-        <h1 class="display-5 text-uppercase mb-4">
-          We Are <span class="text-primary">Professional & Expert</span> Workers
-        </h1>
-      </div>
-      <div class="row g-5">
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="row g-0">
-            <div class="col-10" style="min-height: 300px">
-              <div class="position-relative h-100">
-                <img
-                  class="position-absolute w-100 h-100"
-                  src="img/team-1.jpg"
-                  style="object-fit: cover"
-                />
-              </div>
-            </div>
-            <div class="col-2">
-              <div
-                class="h-100 d-flex flex-column align-items-center justify-content-between bg-light"
-              >
-                <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="bg-light p-4">
-                <h4 class="text-uppercase">Adam Phillips</h4>
-                <span>CEO & Founder</span>
-              </div>
+    <!-- Service Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div
+          class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+          style="max-width: 600px"
+        >
+          <h5 class="fw-bold blue-text-l text-uppercase">Our Services</h5>
+          <h1 class="mb-0">
+            Our Maintenance Services Make a Difference. <br/> Check them out!
+          </h1>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+            <div
+              class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center bg-image1"
+            >
+              <a class="btn btn-lg redColor rounded" href="HVAC.html">
+                <i class="bi bi-arrow-right text-white"></i>
+              </a>
             </div>
           </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="row g-0">
-            <div class="col-10" style="min-height: 300px">
-              <div class="position-relative h-100">
-                <img
-                  class="position-absolute w-100 h-100"
-                  src="img/team-2.jpg"
-                  style="object-fit: cover"
-                />
-              </div>
-            </div>
-            <div class="col-2">
-              <div
-                class="h-100 d-flex flex-column align-items-center justify-content-between bg-light"
-              >
-                <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="bg-light p-4">
-                <h4 class="text-uppercase">Dylan Adams</h4>
-                <span>Civil Engineer</span>
-              </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+            <div
+              class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center bg-image2"
+            >
+              <a class="btn btn-lg redColor rounded" href="Plumbing.html">
+                <i class="bi bi-arrow-right text-white"></i>
+              </a>
             </div>
           </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="row g-0">
-            <div class="col-10" style="min-height: 300px">
-              <div class="position-relative h-100">
-                <img
-                  class="position-absolute w-100 h-100"
-                  src="img/team-3.jpg"
-                  style="object-fit: cover"
-                />
-              </div>
-            </div>
-            <div class="col-2">
-              <div
-                class="h-100 d-flex flex-column align-items-center justify-content-between bg-light"
-              >
-                <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="bg-light p-4">
-                <h4 class="text-uppercase">Jhon Doe</h4>
-                <span>Interior Designer</span>
-              </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+            <div
+              class="service-item bg-image3 rounded d-flex flex-column align-items-center justify-content-center text-center"
+            >
+              <a class="btn btn-lg redColor rounded" href="Electrical.html">
+                <i class="bi bi-arrow-right text-white"></i>
+              </a>
             </div>
           </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="row g-0">
-            <div class="col-10" style="min-height: 300px">
-              <div class="position-relative h-100">
-                <img
-                  class="position-absolute w-100 h-100"
-                  src="img/team-4.jpg"
-                  style="object-fit: cover"
-                />
-              </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+            <div
+              class="service-item bg-image4 rounded d-flex flex-column align-items-center justify-content-center text-center"
+            >
+              <a class="btn btn-lg redColor rounded" href="Handyman.html">
+                <i class="bi bi-arrow-right text-white"></i>
+              </a>
             </div>
-            <div class="col-2">
-              <div
-                class="h-100 d-flex flex-column align-items-center justify-content-between bg-light"
-              >
-                <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+            <div
+              class="service-item bg-image5 rounded d-flex flex-column align-items-center justify-content-center text-center"
+            >
+              <a class="btn btn-lg redColor rounded" href="Appliance.html">
+                <i class="bi bi-arrow-right text-white"></i>
+              </a>
             </div>
-            <div class="col-12">
-              <div class="bg-light p-4">
-                <h4 class="text-uppercase">Josh Dunn</h4>
-                <span>Painter</span>
-              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+            <div
+              class="position-relative redColor rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5"
+            >
+              <h3 class="text-white mb-3">Call Us For Quote</h3>
+              <p class="text-white mb-3">
+                Ready to experience top-tier maintenance services? Get in touch
+                with us today for a consultation and a Request A Quote. Let MJN
+                Facility be your reliable maintenance partner, ensuring your
+                properties remain in pristine condition throughout the year.
+              </p>
+              <h2 class="text-white mb-0">+1 (347) 662-3103</h2>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Team End -->
+    <!-- Service End -->
+
+    <!-- Quote Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-7">
+            <div class="section-title position-relative pb-3 mb-5">
+              <h5 class="fw-bold blue-text-l text-uppercase">
+                Request A Quote
+              </h5>
+              <h1 class="mb-0">Need A Quote? Please Feel Free to Contact Us</h1>
+            </div>
+            <div class="row gx-3">
+              <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                <h5 class="mb-4">
+                  <i class="fa fa-reply blue-text-l me-3"></i>Reply within 24
+                  hours
+                </h5>
+              </div>
+              <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                <h5 class="mb-4">
+                  <i class="fa fa-phone-alt blue-text-l me-3"></i>24 hrs
+                  telephone support
+                </h5>
+              </div>
+            </div>
+            <p class="mb-4">
+              Ready to experience top-tier maintenance services? Get in touch
+              with us today for a consultation and a Request A Quote. Let MJN
+              Facility be your reliable maintenance partner, ensuring your
+              properties remain in pristine condition throughout the year.
+            </p>
+            <div
+              class="d-flex align-items-center mt-2 wow zoomIn"
+              data-wow-delay="0.6s"
+            >
+              <div
+                class="redColor d-flex align-items-center justify-content-center rounded"
+                style="width: 60px; height: 60px"
+              >
+                <i class="fa fa-phone-alt text-white"></i>
+              </div>
+              <div class="ps-4">
+                <h5 class="mb-2">Call to ask any question</h5>
+                <h4 class="blue-text-l mb-0">+1 (347) 662-3103</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div
+              class="redColor rounded h-100 d-flex align-items-center p-5 wow zoomIn"
+              data-wow-delay="0.9s"
+            >
+              <form>
+                <div class="row g-3">
+                  <div class="col-xl-12">
+                    <input
+                      type="text"
+                      class="form-control bg-light border-0"
+                      placeholder="Your Name"
+                      style="height: 55px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="email"
+                      class="form-control bg-light border-0"
+                      placeholder="Your Email"
+                      style="height: 55px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <textarea
+                      class="form-control bg-light border-0"
+                      rows="3"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button
+                      class="btn blueColor w-100 py-3 text-white"
+                      type="submit"
+                    >
+                      Request A Quote
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Quote End -->
 
     <!-- Testimonial Start -->
-    <div class="container-fluid bg-light py-6 px-5">
-      <div class="text-center mx-auto mb-5" style="max-width: 600px">
-        <h1 class="display-5 text-uppercase mb-4">
-          What Our <span class="text-primary">Happy Cleints</span> Say!!!
-        </h1>
-      </div>
-      <div class="row gx-0 align-items-center">
-        <div class="col-xl-4 col-lg-5 d-none d-lg-block">
-          <img class="img-fluid w-100 h-100" src="img/testimonial.jpg" />
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div
+          class="section-title text-center position-relative pb-3 mb-4 mx-auto"
+          style="max-width: 600px"
+        >
+          <h5 class="fw-bold blue-text-l text-uppercase">Testimonial</h5>
+          <h1 class="mb-0">
+            Don't just take our word for it - hear what our clients have to say
+            about their experiences with MJN Facility:
+          </h1>
         </div>
-        <div class="col-xl-8 col-lg-7 col-md-12">
-          <div class="testimonial bg-light">
-            <div class="owl-carousel testimonial-carousel">
-              <div class="row gx-4 align-items-center">
-                <div class="col-xl-4 col-lg-5 col-md-5">
-                  <img
-                    class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0"
-                    src="img/testimonial-1.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="col-xl-8 col-lg-7 col-md-7">
-                  <h4 class="text-uppercase mb-0">Client Name</h4>
-                  <p>Profession</p>
-                  <p class="fs-5 mb-0">
-                    <i class="fa fa-2x fa-quote-left text-primary me-2"></i>
-                    Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                    labore dolore lorem ipsum. At lorem lorem magna ut labore et
-                    tempor diam tempor erat. Erat dolor rebum sit ipsum.
-                  </p>
-                </div>
+        <div
+          class="owl-carousel testimonial-carousel wow fadeInUp"
+          data-wow-delay="0.6s"
+        >
+          <div class="testimonial-item bg-light my-4">
+            <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+              <div class="ps-4">
+                <h4 class="blue-text-l mb-1">Client</h4>
+                <!-- <small class="text-uppercase">Profession</small> -->
               </div>
-              <div class="row gx-4 align-items-center">
-                <div class="col-xl-4 col-lg-5 col-md-5">
-                  <img
-                    class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0"
-                    src="img/testimonial-2.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="col-xl-8 col-lg-7 col-md-7">
-                  <h4 class="text-uppercase mb-0">Client Name</h4>
-                  <p>Profession</p>
-                  <p class="fs-5 mb-0">
-                    <i class="fa fa-2x fa-quote-left text-primary me-2"></i>
-                    Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                    labore dolore lorem ipsum. At lorem lorem magna ut labore et
-                    tempor diam tempor erat. Erat dolor rebum sit ipsum.
-                  </p>
-                </div>
+            </div>
+            <div class="pt-4 pb-5 px-5">
+              MJN Facility has been our go-to maintenance service for years.
+              Their professionalism and attention to detail are unmatched. They
+              always deliver on time and with the highest level of quality." -
+              John D., Commercial Property Manager
+            </div>
+          </div>
+          <div class="testimonial-item bg-light my-4">
+            <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+              <div class="ps-4">
+                <h4 class="blue-text-l mb-1">Client</h4>
+                <!-- <small class="text-uppercase">Profession</small> -->
               </div>
+            </div>
+            <div class="pt-4 pb-5 px-5">
+              I highly recommend the MJN Facility for residential maintenance.
+              Their team is courteous, and they transformed our home with their
+              excellent services. We're extremely satisfied!" - Sarah M.,
+              Homeowner
             </div>
           </div>
         </div>
@@ -827,199 +655,172 @@
     </div>
     <!-- Testimonial End -->
 
-    <!-- Blog Start -->
-    <div class="container-fluid py-6 px-5">
-      <div class="text-center mx-auto mb-5" style="max-width: 600px">
-        <h1 class="display-5 text-uppercase mb-4">
-          Latest <span class="text-primary">Articles</span> From Our Blog Post
-        </h1>
-      </div>
-      <div class="row g-5">
-        <div class="col-lg-4 col-md-6">
-          <div class="bg-light">
-            <img class="img-fluid" src="img/blog-1.jpg" alt="" />
-            <div class="p-4">
-              <div class="d-flex justify-content-between mb-4">
-                <div class="d-flex align-items-center">
-                  <img
-                    class="rounded-circle me-2"
-                    src="img/user.jpg"
-                    width="35"
-                    height="35"
-                    alt=""
-                  />
-                  <span>John Doe</span>
-                </div>
-                <div class="d-flex align-items-center">
-                  <span class="ms-3"
-                    ><i class="far fa-calendar-alt text-primary me-2"></i>01
-                    Jan, 2045</span
-                  >
-                </div>
-              </div>
-              <h4 class="text-uppercase mb-3">
-                Rebum diam clita lorem erat magna est erat
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="bg-light">
-            <img class="img-fluid" src="img/blog-2.jpg" alt="" />
-            <div class="p-4">
-              <div class="d-flex justify-content-between mb-4">
-                <div class="d-flex align-items-center">
-                  <img
-                    class="rounded-circle me-2"
-                    src="img/user.jpg"
-                    width="35"
-                    height="35"
-                    alt=""
-                  />
-                  <span>John Doe</span>
-                </div>
-                <div class="d-flex align-items-center">
-                  <span class="ms-3"
-                    ><i class="far fa-calendar-alt text-primary me-2"></i>01
-                    Jan, 2045</span
-                  >
-                </div>
-              </div>
-              <h4 class="text-uppercase mb-3">
-                Rebum diam clita lorem erat magna est erat
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="bg-light">
-            <img class="img-fluid" src="img/blog-3.jpg" alt="" />
-            <div class="p-4">
-              <div class="d-flex justify-content-between mb-4">
-                <div class="d-flex align-items-center">
-                  <img
-                    class="rounded-circle me-2"
-                    src="img/user.jpg"
-                    width="35"
-                    height="35"
-                    alt=""
-                  />
-                  <span>John Doe</span>
-                </div>
-                <div class="d-flex align-items-center">
-                  <span class="ms-3"
-                    ><i class="far fa-calendar-alt text-primary me-2"></i>01
-                    Jan, 2045</span
-                  >
-                </div>
-              </div>
-              <h4 class="text-uppercase mb-3">
-                Rebum diam clita lorem erat magna est erat
-              </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Blog End -->
+    <!-- Vendor Start -->
+    <!-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s"> -->
+      <!-- <div class="container py-5 mb-5"> -->
+        <!-- <div class="bg-white"> -->
+          <!-- <div class="owl-carousel vendor-carousel"> -->
+            <!-- <img src="img/vendor-1.jpg" alt="" /> -->
+            <!-- <img src="img/vendor-2.jpg" alt="" /> -->
+            <!-- <img src="img/vendor-3.jpg" alt="" /> -->
+            <!-- <img src="img/vendor-4.jpg" alt="" /> -->
+            <!-- <img src="img/vendor-5.jpg" alt="" /> -->
+            <!-- <img src="img/vendor-6.jpg" alt="" /> -->
+            <!-- <img src="img/vendor-7.jpg" alt="" /> -->
+            <!-- <img src="img/vendor-8.jpg" alt="" /> -->
+            <!-- <img src="img/vendor-9.jpg" alt="" /> -->
+          <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+    <!-- Vendor End -->
 
     <!-- Footer Start -->
     <div
-      class="footer container-fluid position-relative bg-dark bg-light-radial text-white-50 py-6 px-5"
+      class="container-fluid blueColor text-light mt-5 wow fadeInUp"
+      data-wow-delay="0.1s"
     >
-      <div class="row g-5">
-        <div class="col-lg-6 pe-lg-5">
-          <a href="index.html" class="navbar-brand">
-            <p class="m-0 display-6 text-uppercase text-white logo-container">
-              <img src="img/logo.png" class="logo-img" alt="logo" />
-              <span class="logo-text">Jayco maintenance</span>
-            </p>
-          </a>
-          <p>
-            Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem
-            nonumy. Tempor sea ipsum diam sed clita dolore eos dolores magna
-            erat dolore sed stet justo et dolor.
-          </p>
-          <p>
-            <i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA
-          </p>
-          <p><i class="fa fa-phone-alt me-2"></i>+012 345 67890</p>
-          <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
-          <div class="d-flex justify-content-start mt-4">
-            <a
-              class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
-              href="#"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a
-              class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
-              href="#"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a
-              class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
-              href="#"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a class="btn btn-lg btn-primary btn-lg-square rounded-0" href="#"
-              ><i class="fab fa-instagram"></i
-            ></a>
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center text-center h-100 p-4 lightBlue"
+            >
+              <a href="index.html" class="navbar-brand p-0">
+                <!--  -->
+                <h1 class="m-0">
+                  <img
+                    src="img/mjn_logo_white_stroke.png"
+                    width="100%"
+                    alt="Logo"
+                  />
+                </h1>
+              </a>
+              <p class="mt-3 mb-4 blue-text-l">
+                MJN Facility is a leading maintenance company specializing in
+                providing comprehensive maintenance
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-6 ps-lg-5">
-          <div class="row g-5">
-            <div class="col-sm-6">
-              <h4 class="text-white text-uppercase mb-4">Quick Links</h4>
-              <div class="d-flex flex-column justify-content-start">
-                <a class="text-white-50 mb-2" href="/"
-                  ><i class="fa fa-angle-right me-2"></i>Home</a
+          <div class="col-lg-8 col-md-6">
+            <div class="row gx-5">
+              <div class="col-lg-6 col-md-12 pt-5 mb-5">
+                <div
+                  class="section-title section-title-sm position-relative pb-3 mb-4"
                 >
-                <a class="text-white-50 mb-2" href="about.html"
-                  ><i class="fa fa-angle-right me-2"></i>About Us</a
+                  <h3 class="text-light mb-0">Get In Touch</h3>
+                </div>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-geo-alt coloRed me-2"></i>
+                  <p class="mb-0">
+                    One World Trade Centre, Lower Manhattan, New York City -
+                    Office
+                  </p>
+                </div>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-envelope-open coloRed me-2"></i>
+                  <p class="mb-0">info@mjnfacilitate.com</p>
+                </div>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-telephone coloRed me-2"></i>
+                  <p class="mb-0">+1 (347) 662-3103</p>
+                </div>
+                <div class="d-flex mt-4">
+                  <a
+                    class="btn redColor text-white btn-square me-2"
+                    href="https://web.facebook.com/MJNFacilitate/"
+                    ><i class="fab fa-facebook-f fw-normal"></i
+                  ></a>
+                  <a
+                    class="btn redColor text-white btn-square me-2"
+                    href="https://www.linkedin.com/company/mjnfacilities/"
+                    ><i class="fab fa-linkedin-in fw-normal"></i
+                  ></a>
+                  <a
+                    class="btn redColor text-white btn-square"
+                    href="https://www.instagram.com/mjnfacilitate/"
+                    ><i class="fab fa-instagram fw-normal"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 pt-0 pt-lg-5 mb-5">
+                <div
+                  class="section-title section-title-sm position-relative pb-3 mb-4"
                 >
-                <a class="text-white-50 mb-2" href="service.html"
-                  ><i class="fa fa-angle-right me-2"></i>Our Services</a
+                  <h3 class="text-light mb-0">Quick Links</h3>
+                </div>
+                <div
+                  class="link-animated d-flex flex-column justify-content-start"
                 >
-                <a class="text-white-50" href="contact.html"
-                  ><i class="fa fa-angle-right me-2"></i>Contact Us</a
-                >
+                  <a class="text-light mb-2" href="/"
+                    ><i class="bi bi-arrow-right coloRed me-2"></i>Home</a
+                  >
+                  <a class="text-light mb-2" href="about.html"
+                    ><i class="bi bi-arrow-right coloRed me-2"></i>About Us</a
+                  >
+                  <a class="text-light mb-2" href="service.html"
+                    ><i class="bi bi-arrow-right coloRed me-2"></i>Our
+                    Services</a
+                  >
+                  <a class="text-light mb-2" href="team.html"
+                    ><i class="bi bi-arrow-right coloRed me-2"></i>Meet The
+                    Team</a
+                  >
+                  <a class="text-light" href="contact.html"
+                    ><i class="bi bi-arrow-right coloRed me-2"></i>Contact Us</a
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div
-      class="container-fluid bg-dark bg-light-radial text-white border-top border-primary px-0"
-    >
-      <div class="d-flex flex-column flex-md-row justify-content-between">
-        <div class="py-4 px-5 text-center text-md-start">
-          <p class="mb-0">
-            &copy; <a class="text-primary" href="#">Jayco Maintenance</a>. All
-            Rights Reserved.
-          </p>
+    <div class="container-fluid text-white redColor">
+      <div class="container text-center">
+        <div class="row justify-content-end">
+          <div class="col-lg-8 col-md-6">
+            <div
+              class="d-flex align-items-center justify-content-center"
+              style="height: 75px"
+            >
+              <p class="mb-0">
+                &copy;
+                <a class="text-white border-bottom" href="#">MJN Facility</a>.
+                All Rights Reserved. Designed by
+                <a class="text-white border-bottom" href="https://screepho.com"
+                  >Screepho Company</a
+                >
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
+    <button
+      id="scrollUp"
+      class="btn btn-lg blueColor text-white btn-lg-square rounded back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
 
     <!-- JavaScript Libraries -->
-    <script src="js/sendEmail.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // scroll up
+        $("#scrollUp").click(() => $("html, body").animate({ scrollTop: 0 }));
+      });
+    </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
